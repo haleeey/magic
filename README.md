@@ -4,7 +4,7 @@ C program 输出三角形来表示乘法表的两种形态
 ---------------  
  __代码__  
 2.代码  
-#```
+```
 #include <stdio.h>    
 int main(void)    
 {    
@@ -18,12 +18,13 @@ printf("%4d",i*j);
 }    
 printf("\n");    
 }   
-#```  
+```  
 第二形态反三角方法:  
 ---------------  
 __代码__  
 2、代码  
-#```#include <stdio.h>  
+#```
+#include <stdio.h>  
 int main(void)  
 {  
 int i,j,k;  
@@ -38,6 +39,6 @@ printf("%-4d",i*j);
 printf("\n");  
 }  
 #```
-### 总结:要观察正反,关键是要调整j的变化!
+# 总结:要观察正反,关键是要调整j的变化!
 
 
