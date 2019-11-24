@@ -23,10 +23,10 @@ printf("\n");
 ---------------  
 __代码__  
 2、代码  
-#```
+```
 #include <stdio.h>  
 int main(void)  
-{  
+{   
 int i,j,k;  
 int sum;  
 for (i = 1; i <=9; i++)  
@@ -38,7 +38,7 @@ printf("%-4d",i*j);
 }  
 printf("\n");  
 }  
-#```
+```
 # 总结:要观察正反,关键是要调整j的变化!
 
 
